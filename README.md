@@ -1,4 +1,4 @@
-OBJECTIF PREMIER:
+<h1>OBJECTIF PREMIER:</h1>
 Ce projet tente de répondre à une problématique très spécifique rencontré par une poignée de gestionnaire de syndic:
 POWIMO, progiciel de gestion immobilière édité par SEIITRA,filiale de Foncia, génère un fichier pdf nominatif pour adresser la notification de PV d'assemblée générale aux copropriétaires.
 Selon leur présence et leurs votes, il convient de leur envoyer ce document en recommandé ou en envoi simple.
