@@ -1,8 +1,8 @@
 /*
 filename: App.js 
 */
-
-import React, { useCallback,useState } from "react";
+// TO DO remettre l'import useState
+import React, { useCallback } from "react";
 // import simple library to generate unique IDs
 //import cuid from "cuid";
 // Import the dropzone component
@@ -17,7 +17,7 @@ import "./App.css";
 
 function App() {
   // Create a state called files using useState hooks and pass the initial value as empty array
-  const [files, setFiles] = useState([]);
+  //const [files, setFiles] = useState([]);
   // onDrop function  
   const onDrop = useCallback(acceptedFiles => {
     // this callback will be called after files get dropped, we will get the acceptedFiles. If you want, you can even access the rejected files too
