@@ -26,7 +26,7 @@ function App() {
     // We pass onDrop function and accept prop to the component. It will be used as initial params for useDropzone hook
 
   function sayHello() {
-    alert('You clicked me!');
+    alert('Fonction en cours de développement.\n Réessayez plus tard.\n Désolé !');
   }
 
   return (
