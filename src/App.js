@@ -37,7 +37,7 @@ function App() {
         <img src={schem}className="schem" alt="schem"/>
         <p className="text-center">Utile pour notifier plusieurs décomptes de charges en même temps !</p>
         <Dropzone onDrop={onDrop} accept={"application/pdf, text/plain"} />
-        <button className='button' onClick={sayHello}>Clique sans crainte !</button>
+        <button className='button' onClick={sayHello}>Cliquer sans crainte !</button>
       </header>
     </main>
   );
