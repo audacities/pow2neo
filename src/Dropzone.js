@@ -17,10 +17,10 @@ const Dropzone = ({ onDrop, accept }) => {
       <input className="dropzone-input" {...getInputProps()} />
       <div className="text-center">
         {isDragActive ? (
-          <p className="dropzone-content">Relâche pour importer tes fichiers</p>
+          <p className="dropzone-content">Relâcher pour importer les fichiers</p>
         ) : (
           <p className="dropzone-content">
-            Glisse-dépose tes fichiers "lettre d'accompagnement" et "prestataire" ici
+            Glisser-déposer les décomptes individuels à fusionner ici
           </p>
         )}
       </div>
