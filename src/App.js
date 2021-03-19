@@ -33,9 +33,9 @@ function App() {
     <main className="App">
       <header className="App-header">
         <img src={wheel} className="App-logo" alt="logo" />
-        <h1 className="text-center">KARINE'S TIME SAVER</h1>
+        <h1 className="text-center">FUSIONNER 2 PDF</h1>
         <img src={schem}className="schem" alt="schem"/>
-        <p className="text-center">Une petite application pour gagner du temps lors des notifs !</p>
+        <p className="text-center">Utile pour notifier plusieurs décomptes de charges en même temps !</p>
         <Dropzone onDrop={onDrop} accept={"application/pdf, text/plain"} />
         <button className='button' onClick={sayHello}>Clique sans crainte !</button>
       </header>
