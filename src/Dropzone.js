@@ -20,7 +20,7 @@ const Dropzone = ({ onDrop, accept }) => {
           <p className="dropzone-content">Relâcher pour importer les fichiers</p>
         ) : (
           <p className="dropzone-content">
-            Glisser-déposer ici le fichier convocation.pdf et le fichier txt
+            Glisser-déposer ici le fichier convocations.pdf et le fichier txt
           </p>
         )}
       </div>
